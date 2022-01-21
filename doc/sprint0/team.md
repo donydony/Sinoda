@@ -4,3 +4,4 @@
 |Dongshi Zhao|zhaodon3|999191119|donny.zhao@mail.utoronto.ca|6476083358|Tissue#1174|
 |Zhizhang Ma|mazhizha|1005952426|6476766122|zhizhang.ma@mail.utoronto.ca|EvolTrigger#4945|
 |Zeyang Wang|wangze34|1006214712|wzysdsg.wang@mail.utoronto.ca|4373438689|DBSSplsgodie#3943|
+|Jialu Song|songji80|1006316586|jialu.song@mail.utoronto.ca|6478670527|awawawa#6701|
