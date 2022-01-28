@@ -15,7 +15,8 @@
     - ability to be toggled on/off 
 8. Animations (Dice)
 9. Player number selection (select the number of players in the game )
-10. Save game 
-11. Number of captured pieces tracking
-12. Tutorial for new players 
-13. Android Client (Port using unity 50 points)
+10. Players choose which colour to play.
+11. Save game 
+12. Number of captured pieces tracking
+13. Tutorial for new players 
+14. Android Client (Port using unity 50 points)
