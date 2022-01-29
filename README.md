@@ -8,8 +8,8 @@ README v0.01
 
 
 **Installation Requirement**
-DirectX
-C++ distribution package 2008
+>DirectX
+>C++ distribution package 2008
 
 
 **Contribution**
@@ -17,7 +17,7 @@ C++ distribution package 2008
 
 
 **Resources**
-Unity 3D engine
+>Unity 3D engine 2021.3
 
 
  * To be updated with development
