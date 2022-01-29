@@ -15,6 +15,9 @@ README v0.01
 **Contribution**
 
 
+**Setup**
+>The folders for setup are created, but because they are currently empty, git doesn't let us commit empty folders. 
+
 
 **Resources**
 >Unity 3D engine 2020.3.26f1
