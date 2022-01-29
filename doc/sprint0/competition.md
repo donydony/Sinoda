@@ -1,4 +1,5 @@
- Tabletop simulator has its own version of Sinoda already. Also there are numerous versions of other board games on Tabletop simulator.
+# Competition
+Tabletop simulator has its own version of Sinoda already. Also there are numerous versions of other board games on Tabletop simulator.
 
 Our product is different in that it offers the ability to play against a computer opponent. We are also planning on implementing the ability to save a game, and to see possible moves after selecting a piece. We also plan on making an android or ios client as well with the pc client. 
 
