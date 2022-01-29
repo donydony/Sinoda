@@ -1,0 +1,2 @@
+# Done
+Our work should complete a initial interface, which can let player open game. Two game boards, the small one is for two players, and the large one is for three or more players. What is more, the sound effects, tutorial and computer player system are needed. 
