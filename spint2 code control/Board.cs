@@ -8,22 +8,6 @@ public class Board
     private int turn;
     private int winner;
     
-    
-    public bool init()
-    {
-        for (int i = 0; i < 54; i++)
-        {
-            this.slots[i] = new Slots(i);
-        }
-
-        for (int i = 0; i < this.player_count; i++)
-        {
-            this._players[i] = new Player(i);
-        }
-        
-        return true;
-        
-    }
 
     public Board(int playerCount)
     {
@@ -34,15 +18,31 @@ public class Board
         if (playerCount > 3)
         {
             this.slots = new Slots[54];
+            for (int i = 0; i < 54; i++)
+            {
+                this.slots[i] = new Slots(i);
+            }
+
+            BigGameBoardInit bi = new BigGameBoardInit();
+            bi.loadAdjcency(this.slots);
         }
         else
         {
             this.slots = new Slots[24];
+            for (int i = 0; i < 24; i++)
+            {
+                this.slots[i] = new Slots(i);
+            }
+
+            SmallGameBoardInit si = new SmallGameBoardInit();
+            si.loadAdjcency(this.slots);
         }
-        if (!this.init())
+        
+        for (int i = 0; i < this.player_count; i++)
         {
-           // fail for some reason 
+            this._players[i] = new Player(i);
         }
+        
         
     }
     

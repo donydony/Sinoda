@@ -19,12 +19,5 @@ public class Player
         return false;
     }
     
-    public bool moveTo()
-    {
-        // must do some sort of path find    
-        // if we are just moving we can return
-        // if we are capturing we are calling capture 
-        return false;
-    }
-    
+
 }
