@@ -5,6 +5,7 @@ public class Board
     private int player_count;
     private Slots[] slots;
     private Player[] _players;
+    private Piece[] pieces;
     private int turn;
     private int winner;
     
@@ -36,6 +37,18 @@ public class Board
 
             SmallGameBoardInit si = new SmallGameBoardInit();
             si.loadAdjcency(this.slots);
+            
+            // load initial board for 2 players 
+
+            TwoPlayerConfiguration p2 = new TwoPlayerConfiguration();
+            this.pieces = new Piece[12];
+            for (int i = 0; i < 12; i++)
+            {
+                this.pieces[i] = new Piece(i, i % 6);
+            }
+            p2.load(this.slots, this.pieces);
+
+
         }
         
         for (int i = 0; i < this.player_count; i++)
