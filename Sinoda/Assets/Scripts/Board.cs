@@ -77,9 +77,9 @@ public class Board: MonoBehaviour
 
 
     }
-    public int returnSlotsnum()
-    {
-    }
+    //public int returnSlotsnum()
+    //{
+    //}
     public void passTurn()
     {
         turn = (turn + 1) % this.player_count;
