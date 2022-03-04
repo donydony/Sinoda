@@ -1882,14 +1882,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: DieDebugUI_D4
       objectReference: {fileID: 0}
+    - target: {fileID: 114298361491098328, guid: 38304a5e66dc6ea4e98241699419df81,
+        type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 114338715192389344, guid: 38304a5e66dc6ea4e98241699419df81,
         type: 3}
       propertyPath: m_Text
       value: 'Die type:4
 
-        Closest match:4
+        Closest match:1
 
-        Exact match?:<color=green>YES</color>'
+        Exact match?:<color=green>YES</color>
+
+        Is
+        rolling?:False
+
+        Last event:-'
       objectReference: {fileID: 0}
     - target: {fileID: 114914015459656706, guid: 38304a5e66dc6ea4e98241699419df81,
         type: 3}
