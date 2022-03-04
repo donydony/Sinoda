@@ -96,9 +96,9 @@ public class Board: MonoBehaviour
         }
         return this.slots[id].piece.owner;
     }
-    public Slot[] returnSlots()
+    public Slots[] returnSlots()
     {
-        return this.slots();
+        return this.slots;
     }
 
     public int getCurrentPlayer()
