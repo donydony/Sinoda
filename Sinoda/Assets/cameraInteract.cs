@@ -10,7 +10,7 @@ public class cameraInteract : MonoBehaviour
     private GameObject gameBoard;
     void Start()
     {
-        gameBoard = GameObject.Find("GameBoardComponents");
+        gameBoard = GameObject.Find("Base Game Board");
         for (int index = 0; index < 12; index += 1)
         {
             dices[index] = (GameObject)Resources.Load("D4");
