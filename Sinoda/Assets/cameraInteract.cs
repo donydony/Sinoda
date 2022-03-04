@@ -10,7 +10,9 @@ public class cameraInteract : MonoBehaviour
     private GameObject gameBoard;
     void Start()
     {
+        Debug.Log("initialized");
         gameBoard = GameObject.Find("Base Game Board");
+        gameBoard.GetComponent<Board>().Board_start();
         for (int index = 0; index < 12; index += 1)
         {
             dices[index] = (GameObject)Resources.Load("D4");
@@ -22,14 +24,19 @@ public class cameraInteract : MonoBehaviour
         {
             slots[index] = GameObject.Find("Slot" + index);
         }
-        for (int index = 1; index<= 54;index += 1) //set initial location
+        Slots[] got_data = gameBoard.GetComponent<Board>().returnSlots();
+        Debug.Log("get length " + got_data.Length);
+        for (int i = 1; i <= got_data.Length; i += 1) //set initial location
         {
-            int returnval = gameBoard.GetComponent<Board>().getSlotPieceOwner(index);
-            if (returnval != -1)
+            Debug.Log("logged");
+            int index = i - 1;
+            if (got_data[index].havePiece)
             {
-                 
+                dices[got_data[index].piece.id].transform.position = new Vector3(slots[got_data[index].piece.id - 1].transform.position.x, slots[got_data[index].piece.id - 1].transform.position.y, slots[got_data[index].piece.id - 1].transform.position.z);
+                Debug.Log(slots[got_data[index].piece.id - 1].transform.position.x+ " " + slots[got_data[index].piece.id - 1].transform.position.y + " " + slots[got_data[index].piece.id - 1].transform.position.z);
             }
         }
+        Debug.Log("initialized complete");
     }
 
     // Update is called once per frame

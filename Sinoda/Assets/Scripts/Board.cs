@@ -5,6 +5,15 @@ using UnityEngine;
 
 public class Board: MonoBehaviour
 {
+
+    [SerializeField] public int player_count;
+    private Slots[] slots;
+    private Player[] _players;
+    private Piece[] pieces;
+    [SerializeField] public int turn;
+    private int winner;
+    private int playerCount = 2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,18 +26,10 @@ public class Board: MonoBehaviour
         
         
     }
-    
-    [SerializeField] public int player_count;
-    private Slots[] slots;
-    private Player[] _players;
-    private Piece[] pieces;
-    [SerializeField] public int turn;
-    private int winner;
-    private int playerCount = 2;
 
-    public Board()
+    public void Board_start()
     {
-        
+        Debug.Log("Initialize board");
         this.turn = 0;
         this.player_count = playerCount;
         this.winner = -1;
@@ -40,7 +41,7 @@ public class Board: MonoBehaviour
             {
                 this.slots[i] = new Slots(i);
             }
-        
+
             BigBoardInit bi = new BigBoardInit();
             bi.loadAdjcency(this.slots);
         }
@@ -54,7 +55,7 @@ public class Board: MonoBehaviour
 
             SmallBoardInit si = new SmallBoardInit();
             si.loadAdjcency(this.slots);
-            
+
             // load initial board for 2 players 
 
             TwoPlayerConfiguration p2 = new TwoPlayerConfiguration();
@@ -64,18 +65,21 @@ public class Board: MonoBehaviour
                 this.pieces[i] = new Piece(i, i % 6);
             }
             p2.load(this.slots, this.pieces);
-
-
+            Debug.Log("Load complete");
         }
-        
+
         for (int i = 0; i < this.player_count; i++)
         {
             this._players[i] = new Player(i);
         }
-        
-        
+        Debug.Log("Initialize Complete");
+
+
+
     }
-    
+    public int returnSlotsnum()
+    {
+    }
     public void passTurn()
     {
         turn = (turn + 1) % this.player_count;
