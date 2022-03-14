@@ -18,4 +18,8 @@ public class DiceNew : MonoBehaviour
     {
         this.ID = ID;
     }
+    public void updatePosition(Vector3 newPos)
+    {
+        transform.position = newPos;
+    }
 }

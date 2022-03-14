@@ -10,30 +10,32 @@ public class cameraInteract : MonoBehaviour
     private GameObject gameBoard;
     void Start()
     {
+        GameObject exampleDice = Resources.Load("D4") as GameObject;
         Debug.Log("initialized");
         gameBoard = GameObject.Find("Base Game Board");
         gameBoard.GetComponent<Board>().Board_start();
         for (int index = 0; index < 12; index += 1)
         {
-            dices[index] = (GameObject)Resources.Load("D4");
-            Instantiate(dices[index]);
+            dices[index] = Instantiate(exampleDice);
             dices[index].GetComponent<DiceNew>().updateID(index);
             //dices[index].GetComponent<Rigidbody>().useGravity = false;
         }
         for (int index = 0; index < 54; index += 1)
         {
-            slots[index] = GameObject.Find("Slot" + index);
+            int index2 = index + 1;
+            string slotname = "Slot" + (index2);
+            slots[index] = GameObject.Find(slotname);
         }
+        DestroyObject(exampleDice);
         Slots[] got_data = gameBoard.GetComponent<Board>().returnSlots();
-        Debug.Log("get length " + got_data.Length);
         for (int i = 1; i <= got_data.Length; i += 1) //set initial location
         {
-            Debug.Log("logged");
             int index = i - 1;
-            if (got_data[index].havePiece)
+            if (got_data[index].havePiece == true)
             {
-                dices[got_data[index].piece.id].transform.position = new Vector3(slots[got_data[index].piece.id - 1].transform.position.x, slots[got_data[index].piece.id - 1].transform.position.y, slots[got_data[index].piece.id - 1].transform.position.z);
-                Debug.Log(slots[got_data[index].piece.id - 1].transform.position.x+ " " + slots[got_data[index].piece.id - 1].transform.position.y + " " + slots[got_data[index].piece.id - 1].transform.position.z);
+                Debug.Log("Problem SET! piece ID" + got_data[index].piece.id);
+                dices[got_data[index].piece.id].transform.position = slots[got_data[index].id].transform.position;
+                Debug.Log("Updated to" + slots[got_data[index].id].transform.position.x + " " + slots[got_data[index].id].transform.position.y + " " + slots[got_data[index].id].transform.position.z + " ");
             }
         }
         Debug.Log("initialized complete");

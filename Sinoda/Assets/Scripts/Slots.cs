@@ -26,4 +26,8 @@ public class Slots : MonoBehaviour
         this.id = id;
         this.havePiece = false;
     }
+    public Vector3 returnPosition()
+    {
+        return transform.position;
+    }
 }

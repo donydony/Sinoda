@@ -34,7 +34,6 @@ public class TwoPlayerConfiguration : MonoBehaviour
         {
             for (int j = 0; j < 6; j+=1)
             {
-                Debug.Log(i + " ," + j + " Results in " + this.initialPieces[i, j]);
                 slots[this.initialPieces[i, j]].havePiece = true; // slot now know a piece is on it 
                 slots[this.initialPieces[i, j]].piece = pieces[(i * 6) + j]; // slot now contains a reference to the piece on it 
                 slots[this.initialPieces[i, j]].piece.slot = this.initialPieces[i, j]; // piece now knows which slot it is on
