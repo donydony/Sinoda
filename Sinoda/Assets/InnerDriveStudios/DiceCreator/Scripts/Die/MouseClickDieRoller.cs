@@ -20,25 +20,29 @@ namespace InnerDriveStudios.DiceCreator
         [SerializeField]
         [Tooltip("Force the Die to roll even if it is currently already rolling.")]
         private bool _force = true;
-        [SerializeField] int face = 1;
+        [SerializeField] public int face = 1;
         private KeyCode _forward = KeyCode.W;
         private KeyCode _back = KeyCode.S;
         private KeyCode _left = KeyCode.A;
         private KeyCode _right = KeyCode.D;
+        private KeyCode _select = KeyCode.O;
+        
+        private bool selected = false;
+        
         private void Awake()
         {
             _die = GetComponent<Die>();
         }
 
-        private void OnMouseUp()
+        private void roll()
         {
             // 1
             if ( face == 1)
             {
                 _die.transform.eulerAngles = new Vector3(
-                0f,
-                0f,
-                0f
+                    0f,
+                    0f,
+                    0f
                 );
             }
             // 2
@@ -46,9 +50,9 @@ namespace InnerDriveStudios.DiceCreator
             {
 
                 _die.transform.eulerAngles = new Vector3(
-                0f,
-                60f,
-                -110f
+                    0f,
+                    60f,
+                    -110f
                 );
             }
             // 3
@@ -56,9 +60,9 @@ namespace InnerDriveStudios.DiceCreator
             {
 
                 _die.transform.eulerAngles = new Vector3(
-                235f,
-                31f,
-                -55f
+                    235f,
+                    31f,
+                    -55f
                 );
             }
 
@@ -66,9 +70,9 @@ namespace InnerDriveStudios.DiceCreator
             if ( face == 4)
             {
                 _die.transform.eulerAngles = new Vector3(
-                125f,
-                -30f,
-                -55f
+                    125f,
+                    -30f,
+                    -55f
                 );
             }
             face++;
@@ -76,10 +80,25 @@ namespace InnerDriveStudios.DiceCreator
             {
                 face = face % 5;
             }
-            // _die.Roll();
+        }
+
+        private void OnMouseUp()
+        {
+            if (selected)
+            {
+                selected = false;
+            }
+            else
+            {
+                selected = true;
+            }
+            Debug.Log("Piece is selected");
         }
         void Update()
         {
+
+            if (!selected){return;}
+            
             if (Input.GetKey(_forward))
             {
                 _die.transform.position = new Vector3(
