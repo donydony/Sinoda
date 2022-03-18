@@ -5,8 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class PlayerAmount : MonoBehaviour
 {
-	void Start() {}
-	void Update(){}
     public void PlayGame1()
     {
 		GameObject numPlayers = new GameObject();
@@ -17,7 +15,7 @@ public class PlayerAmount : MonoBehaviour
         SceneManager.LoadScene("Gamescene");
     }
 
-    public void MainMenu()
+    public void BacktoMenu()
     {
         Debug.Log("Back to main menu");
         SceneManager.LoadScene("MainMenu");
