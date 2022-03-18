@@ -39,7 +39,7 @@ public class Board: MonoBehaviour
             this.slots = new Slots[54];
             for (int i = 0; i < 54; i++)
             {
-                this.slots[i] = new Slots(i);
+                // this.slots[i] = new Slots(i);
             }
 
             BigBoardInit bi = new BigBoardInit();
