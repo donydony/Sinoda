@@ -29,7 +29,8 @@ public class CapturePlate : MonoBehaviour
         this.score = 0;
         for (int i = 0; i < 6; i++)
         {
-            slots[i].value = 0;
+            this.slots[i] = new Piece(this.owner, i);
+            this.slots[i].value = 0;
         }
     }
 

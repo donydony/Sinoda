@@ -7,8 +7,8 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        Debug.Log("Starting Game");
-        SceneManager.LoadScene("Gamescene");
+        Debug.Log("Player amount selection");
+        SceneManager.LoadScene("PlayerAmount");
     }
 
     public void QuitGame()

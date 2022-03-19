@@ -157,7 +157,7 @@ GameObject:
   - component: {fileID: 58014458}
   - component: {fileID: 58014457}
   m_Layer: 0
-  m_Name: TriangleDown (12)
+  m_Name: Slot40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -253,7 +253,7 @@ GameObject:
   - component: {fileID: 72998266}
   - component: {fileID: 72998265}
   m_Layer: 0
-  m_Name: TriangleUp (11)
+  m_Name: Slot26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -349,7 +349,7 @@ GameObject:
   - component: {fileID: 94144165}
   - component: {fileID: 94144164}
   m_Layer: 0
-  m_Name: TriangleDown (8)
+  m_Name: Slot31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -363,7 +363,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 94144162}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.894233, y: 11.380894, z: 2.3700488}
+  m_LocalPosition: {x: -8.894233, y: 11.36, z: 2.3700488}
   m_LocalScale: {x: 3, y: 0, z: 3.4}
   m_Children: []
   m_Father: {fileID: 2121026607}
@@ -441,7 +441,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4998616480295230, guid: 5b4aff722c623024680aa21801dd3ca6, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4998616480295230, guid: 5b4aff722c623024680aa21801dd3ca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -556,7 +556,7 @@ GameObject:
   - component: {fileID: 131944912}
   - component: {fileID: 131944911}
   m_Layer: 0
-  m_Name: TriangleUp (12)
+  m_Name: Slot15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -652,7 +652,7 @@ GameObject:
   - component: {fileID: 182665789}
   - component: {fileID: 182665788}
   m_Layer: 0
-  m_Name: TriangleDown (4)
+  m_Name: Slot10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -760,7 +760,7 @@ GameObject:
   - component: {fileID: 222866268}
   - component: {fileID: 222866267}
   m_Layer: 0
-  m_Name: TriangleDown (16)
+  m_Name: Slot12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -934,7 +934,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -212.88, z: 0}
 --- !u!1 &301306981
 GameObject:
@@ -949,7 +949,7 @@ GameObject:
   - component: {fileID: 301306983}
   - component: {fileID: 301306982}
   m_Layer: 0
-  m_Name: TriangleDown
+  m_Name: Slot53
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1045,7 +1045,7 @@ GameObject:
   - component: {fileID: 309077435}
   - component: {fileID: 309077434}
   m_Layer: 0
-  m_Name: TriangleUp (13)
+  m_Name: Slot6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1160,7 +1160,7 @@ GameObject:
   - component: {fileID: 389450828}
   - component: {fileID: 389450827}
   m_Layer: 0
-  m_Name: TriangleDown (3)
+  m_Name: Slot21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1276,7 +1276,7 @@ GameObject:
   - component: {fileID: 416094646}
   - component: {fileID: 416094645}
   m_Layer: 0
-  m_Name: TriangleDown (13)
+  m_Name: Slot29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1390,7 +1390,7 @@ GameObject:
   - component: {fileID: 442810227}
   - component: {fileID: 442810226}
   m_Layer: 0
-  m_Name: TriangleDown (10)
+  m_Name: Slot51
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1486,7 +1486,7 @@ GameObject:
   - component: {fileID: 485047290}
   - component: {fileID: 485047289}
   m_Layer: 0
-  m_Name: TriangleUp (6)
+  m_Name: Slot50
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1582,7 +1582,7 @@ GameObject:
   - component: {fileID: 542182766}
   - component: {fileID: 542182765}
   m_Layer: 0
-  m_Name: TriangleUp (18)
+  m_Name: Slot13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1678,7 +1678,7 @@ GameObject:
   - component: {fileID: 553896433}
   - component: {fileID: 553896432}
   m_Layer: 0
-  m_Name: TriangleDown (17)
+  m_Name: Slot23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1794,7 +1794,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4861987373067292, guid: c825a794b63c3ff4da9c26839651a40a, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4861987373067292, guid: c825a794b63c3ff4da9c26839651a40a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1869,7 +1869,7 @@ Transform:
   - {fileID: 1175913277}
   - {fileID: 2121026607}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &666858111
 PrefabInstance:
@@ -1882,24 +1882,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: DieDebugUI_D4
       objectReference: {fileID: 0}
-    - target: {fileID: 114298361491098328, guid: 38304a5e66dc6ea4e98241699419df81,
-        type: 3}
-      propertyPath: m_PresetInfoIsWorld
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 114338715192389344, guid: 38304a5e66dc6ea4e98241699419df81,
         type: 3}
       propertyPath: m_Text
       value: 'Die type:4
 
-        Closest match:1
+        Closest match:4
 
-        Exact match?:<color=green>YES</color>
-
-        Is
-        rolling?:False
-
-        Last event:-'
+        Exact match?:<color=green>YES</color>'
       objectReference: {fileID: 0}
     - target: {fileID: 114914015459656706, guid: 38304a5e66dc6ea4e98241699419df81,
         type: 3}
@@ -2031,7 +2021,7 @@ GameObject:
   - component: {fileID: 698709683}
   - component: {fileID: 698709682}
   m_Layer: 0
-  m_Name: TriangleUp (16)
+  m_Name: Slot36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2127,7 +2117,7 @@ GameObject:
   - component: {fileID: 699147121}
   - component: {fileID: 699147120}
   m_Layer: 0
-  m_Name: TriangleUp (9)
+  m_Name: Slot30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2223,7 +2213,7 @@ GameObject:
   - component: {fileID: 720994309}
   - component: {fileID: 720994308}
   m_Layer: 0
-  m_Name: TriangleDown (5)
+  m_Name: Slot1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2319,7 +2309,7 @@ GameObject:
   - component: {fileID: 733001859}
   - component: {fileID: 733001858}
   m_Layer: 0
-  m_Name: TriangleUp (5)
+  m_Name: Slot2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2415,7 +2405,7 @@ GameObject:
   - component: {fileID: 739049407}
   - component: {fileID: 739049406}
   m_Layer: 0
-  m_Name: TriangleUp (4)
+  m_Name: Slot11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2511,7 +2501,7 @@ GameObject:
   - component: {fileID: 844760030}
   - component: {fileID: 844760029}
   m_Layer: 0
-  m_Name: TriangleDown (22)
+  m_Name: Slot14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2668,7 +2658,7 @@ GameObject:
   - component: {fileID: 872335646}
   - component: {fileID: 872335645}
   m_Layer: 0
-  m_Name: TriangleDown (18)
+  m_Name: Slot35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2764,7 +2754,7 @@ GameObject:
   - component: {fileID: 898940000}
   - component: {fileID: 898939999}
   m_Layer: 0
-  m_Name: TriangleUp (2)
+  m_Name: Slot34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2880,7 +2870,7 @@ GameObject:
   - component: {fileID: 934895958}
   - component: {fileID: 934895957}
   m_Layer: 0
-  m_Name: TriangleUp (8)
+  m_Name: Slot41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2976,7 +2966,7 @@ GameObject:
   - component: {fileID: 953565940}
   - component: {fileID: 953565939}
   m_Layer: 0
-  m_Name: TriangleUp (7)
+  m_Name: Slot38
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3072,7 +3062,7 @@ GameObject:
   - component: {fileID: 954962261}
   - component: {fileID: 954962260}
   m_Layer: 0
-  m_Name: TriangleDown (14)
+  m_Name: Slot17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3168,7 +3158,7 @@ GameObject:
   - component: {fileID: 969890263}
   - component: {fileID: 969890262}
   m_Layer: 0
-  m_Name: TriangleUp (17)
+  m_Name: Slot24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3264,7 +3254,7 @@ GameObject:
   - component: {fileID: 1036943516}
   - component: {fileID: 1036943515}
   m_Layer: 0
-  m_Name: TriangleUp (19)
+  m_Name: Slot4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3360,7 +3350,7 @@ GameObject:
   - component: {fileID: 1058772796}
   - component: {fileID: 1058772795}
   m_Layer: 0
-  m_Name: TriangleDown (26)
+  m_Name: Slot27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3456,7 +3446,7 @@ GameObject:
   - component: {fileID: 1122480771}
   - component: {fileID: 1122480770}
   m_Layer: 0
-  m_Name: TriangleUp (21)
+  m_Name: Slot32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3552,7 +3542,7 @@ GameObject:
   - component: {fileID: 1138997641}
   - component: {fileID: 1138997640}
   m_Layer: 0
-  m_Name: TriangleUp (25)
+  m_Name: Slot39
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3648,7 +3638,7 @@ GameObject:
   - component: {fileID: 1140768129}
   - component: {fileID: 1140768128}
   m_Layer: 0
-  m_Name: TriangleDown (20)
+  m_Name: Slot37
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3744,7 +3734,7 @@ GameObject:
   - component: {fileID: 1169910446}
   - component: {fileID: 1169910445}
   m_Layer: 0
-  m_Name: TriangleDown (1)
+  m_Name: Slot44
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3897,7 +3887,7 @@ GameObject:
   - component: {fileID: 1187286626}
   - component: {fileID: 1187286625}
   m_Layer: 0
-  m_Name: TriangleUp (14)
+  m_Name: Slot47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3993,7 +3983,7 @@ GameObject:
   - component: {fileID: 1263493540}
   - component: {fileID: 1263493539}
   m_Layer: 0
-  m_Name: TriangleDown (24)
+  m_Name: Slot7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4109,7 +4099,7 @@ GameObject:
   - component: {fileID: 1304935528}
   - component: {fileID: 1304935527}
   m_Layer: 0
-  m_Name: TriangleUp (1)
+  m_Name: Slot45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4205,7 +4195,7 @@ GameObject:
   - component: {fileID: 1338274040}
   - component: {fileID: 1338274039}
   m_Layer: 0
-  m_Name: TriangleUp (20)
+  m_Name: Slot43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4301,7 +4291,7 @@ GameObject:
   - component: {fileID: 1340992445}
   - component: {fileID: 1340992444}
   m_Layer: 0
-  m_Name: TriangleUp (10)
+  m_Name: Slot18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4397,7 +4387,7 @@ GameObject:
   - component: {fileID: 1343041053}
   - component: {fileID: 1343041052}
   m_Layer: 0
-  m_Name: TriangleDown (7)
+  m_Name: Slot19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4493,6 +4483,7 @@ GameObject:
   - component: {fileID: 1355276555}
   - component: {fileID: 1355276554}
   - component: {fileID: 1355276558}
+  - component: {fileID: 1355276559}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4566,12 +4557,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1355276553}
-  m_LocalRotation: {x: 0, y: -0.71079946, z: 0, w: 0.7033948}
-  m_LocalPosition: {x: 30.01, y: 12.16, z: 2.57}
+  m_LocalRotation: {x: -0, y: -0.71079946, z: -0, w: 0.7033948}
+  m_LocalPosition: {x: 23.6, y: -1.8, z: 12.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: -90.6, z: 0}
 --- !u!114 &1355276558
 MonoBehaviour:
@@ -4588,6 +4579,18 @@ MonoBehaviour:
   _zoomSpeed: 0.5
   _zoomDistance: 3
   _zoomInOnARollingDieAllowed: 0
+--- !u!114 &1355276559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355276553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37574319d20eb6f49a11210f7389597c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1361730969
 GameObject:
   m_ObjectHideFlags: 0
@@ -4601,7 +4604,7 @@ GameObject:
   - component: {fileID: 1361730971}
   - component: {fileID: 1361730970}
   m_Layer: 0
-  m_Name: TriangleUp
+  m_Name: Slot54
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4839,7 +4842,7 @@ GameObject:
   - component: {fileID: 1430996976}
   - component: {fileID: 1430996975}
   m_Layer: 0
-  m_Name: TriangleDown (11)
+  m_Name: Slot49
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4935,7 +4938,7 @@ GameObject:
   - component: {fileID: 1476661277}
   - component: {fileID: 1476661276}
   m_Layer: 0
-  m_Name: TriangleDown (2)
+  m_Name: Slot33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5031,7 +5034,7 @@ GameObject:
   - component: {fileID: 1495116542}
   - component: {fileID: 1495116541}
   m_Layer: 0
-  m_Name: TriangleUp (26)
+  m_Name: Slot28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5161,7 +5164,7 @@ GameObject:
   - component: {fileID: 1529355155}
   - component: {fileID: 1529355154}
   m_Layer: 0
-  m_Name: TriangleUp (24)
+  m_Name: Slot48
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5257,7 +5260,7 @@ GameObject:
   - component: {fileID: 1588906754}
   - component: {fileID: 1588906753}
   m_Layer: 0
-  m_Name: TriangleDown (23)
+  m_Name: Slot5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5353,7 +5356,7 @@ GameObject:
   - component: {fileID: 1598312112}
   - component: {fileID: 1598312111}
   m_Layer: 0
-  m_Name: TriangleUp (22)
+  m_Name: Slot20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5449,7 +5452,7 @@ GameObject:
   - component: {fileID: 1613809180}
   - component: {fileID: 1613809179}
   m_Layer: 0
-  m_Name: TriangleDown (15)
+  m_Name: Slot3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5545,7 +5548,7 @@ GameObject:
   - component: {fileID: 1659984072}
   - component: {fileID: 1659984071}
   m_Layer: 0
-  m_Name: TriangleDown (21)
+  m_Name: Slot25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5641,7 +5644,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4965768699534700, guid: 5ba36454fc366d84ebb28c9667a3b350, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4965768699534700, guid: 5ba36454fc366d84ebb28c9667a3b350, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6206,7 +6209,7 @@ GameObject:
   - component: {fileID: 1708648821}
   - component: {fileID: 1708648820}
   m_Layer: 0
-  m_Name: TriangleDown (19)
+  m_Name: Slot46
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6333,7 +6336,7 @@ Transform:
   m_Children:
   - {fileID: 439804889}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1767611825 stripped
 GameObject:
@@ -6367,7 +6370,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4053308540134666, guid: c531f6dd75f76e5449bf3d1690f80991, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4053308540134666, guid: c531f6dd75f76e5449bf3d1690f80991, type: 3}
       propertyPath: m_LocalScale.x
@@ -6466,7 +6469,7 @@ GameObject:
   - component: {fileID: 1789872779}
   - component: {fileID: 1789872778}
   m_Layer: 0
-  m_Name: TriangleDown (6)
+  m_Name: Slot8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6562,7 +6565,7 @@ GameObject:
   - component: {fileID: 1797450773}
   - component: {fileID: 1797450772}
   m_Layer: 0
-  m_Name: TriangleUp (23)
+  m_Name: Slot9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6658,7 +6661,7 @@ GameObject:
   - component: {fileID: 1801791146}
   - component: {fileID: 1801791145}
   m_Layer: 0
-  m_Name: TriangleDown (25)
+  m_Name: Slot16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6754,7 +6757,7 @@ GameObject:
   - component: {fileID: 1858916789}
   - component: {fileID: 1858916788}
   m_Layer: 0
-  m_Name: TriangleDown (9)
+  m_Name: Slot42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7014,7 +7017,7 @@ GameObject:
   - component: {fileID: 2094390714}
   - component: {fileID: 2094390713}
   m_Layer: 0
-  m_Name: TriangleUp (15)
+  m_Name: Slot52
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7167,7 +7170,7 @@ GameObject:
   - component: {fileID: 2125298772}
   - component: {fileID: 2125298771}
   m_Layer: 0
-  m_Name: TriangleUp (3)
+  m_Name: Slot22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
