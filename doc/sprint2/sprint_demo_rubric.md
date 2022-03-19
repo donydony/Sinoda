@@ -171,7 +171,7 @@ Tracking on Jira Total Mark: 10 / 24
   - Started stories that are incomplete will be counted
   - Mark Breakdown: [x = Percentage of story points completed * 20]
 
-  Your Mark: 0 / 20
+  Your Mark: 20 / 20
 
 ---
 ## System Design (PDF or MD file or another suitable format) (max 10 marks) 
@@ -252,4 +252,4 @@ Tracking on Jira Total Mark: 10 / 24
     - Settings
   - Sub features are too small to count as a main feature.
 
-Final mark: 32/91
+Final mark: 52/91
