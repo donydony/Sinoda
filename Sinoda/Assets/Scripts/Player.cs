@@ -4,32 +4,56 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     
     public int player_id;
-    public CapturePlate plate;
     public int score;
-
-    public Player(int id)
+    public Board board;
+    public List<Piece> Pieces;
+    public Player(int id, Board b)
     {
         this.player_id = id;
-        plate = new CapturePlate(id);
+        this.board = b;
         this.score = 0;
+        this.Pieces = new List<Piece>();
     }
-    
-    public bool capture()
+
+    public void addPiece(Piece p)
     {
-        this.score = this.plate.getScore();
-        return false;
+        if (!Pieces.Contains(p))
+        {
+            Pieces.Add(p);
+        }
+        
     }
+
+    public void removePiece(Piece p)
+    {
+        if (Pieces.Contains(p))
+        {
+            Pieces.Remove(p);
+        }
+
+    }
+    public void AllPossibleMoves()
+    {
+        foreach(var Piece in Pieces)
+        {
+            Piece.SelectPossibleMoves();
+        }
+    }
+
+    public void Addpoint(int i)
+    {
+        score += i;
+    }
+
+    public bool oneleft()
+    {
+        return Pieces.Count == 1;
+    }
+    public bool zeroleft()
+    {
+        return Pieces.Count == 0;
+    }
+
 }
