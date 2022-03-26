@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - TileHighlight
+  - GameBoard
+  - HitBox
+  - Piece
+  - Button
+  - rollup
+  - rolldown
   layers:
   - Default
   - TransparentFX

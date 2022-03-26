@@ -32,12 +32,12 @@ MonoBehaviour:
     value: 1
     owner: 0
   - slot: 44
-    value: 3
+    value: 1
     owner: 1
   - slot: 45
     value: 1
     owner: 1
-  - slot: 47
+  - slot: 46
     value: 1
     owner: 1
   - slot: 52

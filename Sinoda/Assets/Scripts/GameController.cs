@@ -69,15 +69,12 @@ public class GameController : MonoBehaviour
     public void SwitchTurn()
     {
         
-        ActivePlayer++;
+        
         if (CheckStats())
         {
             win(); 
         }
-        if (ActivePlayer == Player_number)
-        {
-            ActivePlayer = 0;
-        }
+        SwitchToAvailablePlayer();
         GenerateAllPossibleMoves(Players[ActivePlayer]);
     }
     public bool IfTurnTrue(int i)
@@ -134,5 +131,16 @@ public class GameController : MonoBehaviour
             }
         }
         Debug.Log("player:" + player + "win");
+    }
+    private void SwitchToAvailablePlayer()
+    {
+        do
+        {
+            ActivePlayer++;
+            if (ActivePlayer == Player_number)
+            {
+                ActivePlayer = 0;
+            }
+        } while (Players[ActivePlayer].zeroleft());
     }
 }
