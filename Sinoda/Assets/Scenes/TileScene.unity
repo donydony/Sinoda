@@ -251,6 +251,8 @@ MonoBehaviour:
   board: {fileID: 1397601244}
   Player_number: 2
   ActivePlayer: 0
+  BotPlayerMapping: 
+  GameDone: 0
 --- !u!4 &346105624
 Transform:
   m_ObjectHideFlags: 0

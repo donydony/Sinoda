@@ -154,6 +154,8 @@ public class Piece : MonoBehaviour
 
     public void moveto(int slot)
     {
+        AudioSource moveSound = gameObject.AddComponent<AudioSource>();
+        moveSound.PlayOneShot((AudioClip) Resources.Load("Put_Down"));
         transform.position = board.GetPositionAtSlot(slot);
         this.slot = slot;
 
@@ -165,6 +167,8 @@ public class Piece : MonoBehaviour
     {
         if (selected)
         {
+            AudioSource selectedSound = gameObject.AddComponent<AudioSource>();
+            selectedSound.PlayOneShot((AudioClip) Resources.Load("Pickup"));
             transform.position = new Vector3(
                 transform.position.x,
                 transform.position.y + 5,
@@ -173,6 +177,8 @@ public class Piece : MonoBehaviour
         }
         else
         {
+            AudioSource unselectedSound = gameObject.AddComponent<AudioSource>();
+            unselectedSound.PlayOneShot((AudioClip) Resources.Load("Put_Down"));
             transform.position = new Vector3(
                 transform.position.x,
                 transform.position.y - 5,
