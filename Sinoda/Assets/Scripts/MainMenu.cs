@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         Debug.Log("Starting Game");
-        SceneManager.LoadScene("Gamescene");
+        SceneManager.LoadScene("PlayerAmount");
     }
 
     public void QuitGame()
@@ -22,4 +22,8 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Options");
         SceneManager.LoadScene("Settings");
     }
+	public void twoPlayers()
+    {
+		SceneManager.LoadScene("TileScene");
+	}
 }
