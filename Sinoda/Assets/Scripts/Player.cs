@@ -4,56 +4,32 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    
-    public int player_id;
-    public int score;
-    public Board board;
-    public List<Piece> Pieces;
-    public Player(int id, Board b)
+    // Start is called before the first frame update
+    void Start()
     {
-        this.player_id = id;
-        this.board = b;
-        this.score = 0;
-        this.Pieces = new List<Piece>();
-    }
-
-    public void addPiece(Piece p)
-    {
-        if (!Pieces.Contains(p))
-        {
-            Pieces.Add(p);
-        }
         
     }
 
-    public void removePiece(Piece p)
+    // Update is called once per frame
+    void Update()
     {
-        if (Pieces.Contains(p))
-        {
-            Pieces.Remove(p);
-        }
+        
+    }
+    
+    public int player_id;
+    public CapturePlate plate;
+    public int score;
 
-    }
-    public void AllPossibleMoves()
+    public Player(int id)
     {
-        foreach(var Piece in Pieces)
-        {
-            Piece.SelectPossibleMoves();
-        }
+        this.player_id = id;
+        plate = new CapturePlate(id);
+        this.score = 0;
     }
-
-    public void Addpoint(int i)
+    
+    public bool capture()
     {
-        score += i;
+        this.score = this.plate.getScore();
+        return false;
     }
-
-    public bool oneleft()
-    {
-        return Pieces.Count == 1;
-    }
-    public bool zeroleft()
-    {
-        return Pieces.Count == 0;
-    }
-
 }
