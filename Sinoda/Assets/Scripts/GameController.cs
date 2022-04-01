@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using InnerDriveStudios.DiceCreator;
 using UnityEngine;
+using TMPro;
 /*
  * Main game Controller
  * Start game, End game
@@ -169,6 +170,29 @@ public class GameController : MonoBehaviour
             }
         }
         Debug.Log("player:" + player + "win");
+        GameObject[] allObjects = FindObjectsOfType<GameObject>();
+        for (int i = 0; i < allObjects.Length; i += 1)
+        {
+            if (allObjects[i].name != "Main Camera") { allObjects[i].SetActive(false); }
+
+        }
+        GameObject Winning = Resources.Load("Winning") as GameObject;
+        Instantiate(Winning);
+        TextMeshProUGUI t = GameObject.Find("Message").GetComponent<TextMeshProUGUI>();
+        string tempPlayer = "";
+        if (player == 0)
+        {
+            tempPlayer = "red";
+        }
+        else if (player == 1)
+        {
+            tempPlayer = "blue";
+        }
+        else if (player == 2)
+        {
+            tempPlayer = "green";
+        }
+        t.text = "Player " + tempPlayer + " won by " + maxpiont + " points";
     }
     private void SwitchToAvailablePlayer()
     {
