@@ -13,13 +13,10 @@ GameObject:
   - component: {fileID: 7104079329951846070}
   - component: {fileID: 7072742960891859490}
   - component: {fileID: 7062889810689586720}
-  - component: {fileID: 7156704537021010986}
-  - component: {fileID: 7156823473004351614}
-  - component: {fileID: 7156515724606902546}
-  - component: {fileID: 7159817602602649098}
+  - component: {fileID: 6554085062399022684}
   m_Layer: 8
   m_Name: Player1_D4
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32,8 +29,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7115792094932042904}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.9, y: 10, z: 60.5}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalPosition: {x: 25.9, y: 9.241252, z: 60.5}
+  m_LocalScale: {x: 6, y: 6, z: 6}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -117,7 +114,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7156704537021010986
+--- !u!114 &6554085062399022684
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,68 +123,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 7115792094932042904}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f61ad02bc1ca66c44b736edb30a5dba9, type: 3}
+  m_Script: {fileID: 11500000, guid: d8fc8670e5dd4e34f9ecb449df3a57aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _matchType: 1
-  _dieSides:
-  - _normal: {x: -0.4714045, y: 0.3333333, z: 0.81649655}
-    _centerPoint: {x: -0.21075732, y: 0.14902794, z: 0.36504236}
-    values: 04000000
-  - _normal: {x: 0.9428091, y: 0.33333337, z: 0}
-    _centerPoint: {x: 0.42151463, y: 0.14902794, z: 0}
-    values: 02000000
-  - _normal: {x: -0.4714045, y: 0.3333333, z: -0.81649655}
-    _centerPoint: {x: -0.21075732, y: 0.14902794, z: -0.36504236}
-    values: 03000000
-  - _normal: {x: 0, y: -1, z: 0}
-    _centerPoint: {x: 0, y: -0.4470838, z: 0}
-    values: 01000000
-  _valueCountPerSide: 1
---- !u!114 &7156823473004351614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7115792094932042904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfd71446a9b35dc409315cec5c022fca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _throwVector: {x: 0, y: 1, z: 0}
-  _maxAngleDeviation: 45
-  _minVelocity: 10
-  _maxVelocity: 15
-  _minAngularVelocity: 10
-  _maxAngularVelocity: 15
-  _nudgeAlongForce: 10
---- !u!114 &7156515724606902546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7115792094932042904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff19981af085e14a8cf3a8d320cc146, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _avoidanceForce: 4
-  _triggerOnStay: 0
---- !u!114 &7159817602602649098
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7115792094932042904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43ab73034abf4e94ab66f0a54c9fd0d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _force: 0
-  face: 1
+  id: 0
+  slot: 0
+  value: 0
+  owner: 0
+  turn: 0
+  board: {fileID: 0}
+  availablemoves: 

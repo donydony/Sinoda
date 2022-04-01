@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        Debug.Log("Player amount selection");
+        Debug.Log("Starting Game");
         SceneManager.LoadScene("PlayerAmount");
     }
 
@@ -22,4 +22,8 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Options");
         SceneManager.LoadScene("Settings");
     }
+	public void twoPlayers()
+    {
+		SceneManager.LoadScene("TileScene");
+	}
 }
