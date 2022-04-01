@@ -26,6 +26,6 @@
 
     2 / 2
 
-  Your Mark: 12 / 12
+  Your Mark: 11.5 / 12
 
   ## Notes
