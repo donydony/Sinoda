@@ -436,7 +436,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 311508427}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: OptionsMenu
+        m_MethodName: gotoCredits
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
