@@ -21,7 +21,7 @@ README v1.01
 InnerDriveStudio
 
 **Suitable number of players**
-1~3
+1~4
 
 **Installation Requirement**
 >DirectX
