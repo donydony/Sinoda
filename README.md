@@ -5,7 +5,7 @@ README v0.01
 **Motivation**
 >This is a strategy game built based on Unity 3D, provided with local multiplayer mode which you can enjoy with your friends and PVE mode. Please enjoy the game, it is our best pleasure brought to you.
 
-**How to play?*
+**How to play?**
 >Players operates turn by turn, one move at each time.
 
 
