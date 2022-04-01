@@ -17,7 +17,8 @@ README v1.01
 
 >When there is only one player on screen, the score board shows who wins.
 
-
+**Dice art**
+InnerDriveStudio
 
 **Suitable number of players**
 1~3
