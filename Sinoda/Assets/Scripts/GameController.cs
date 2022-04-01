@@ -104,6 +104,25 @@ public class GameController : MonoBehaviour
     {
         Players[p.owner].removePiece(p);
         Players[ActivePlayer].Addpoint(p.value);
+        Debug.Log("Currently @ Player: "+ActivePlayer);
+        if (ActivePlayer == 0)
+        {
+            ScoreController.instance.AddRed(p.value);
+            Debug.Log("Adding Points: "+p.value+" to Player Red");
+            Debug.Log("Current Score is "+Players[ActivePlayer].score);
+        }
+        else if (ActivePlayer == 1)
+        {
+            ScoreController.instance.AddBlue(p.value);
+            Debug.Log("Adding Points: "+p.value+" to Player Blue");
+            Debug.Log("Current Score is "+Players[ActivePlayer].score);
+        }
+        else if (ActivePlayer == 2)
+        {
+            ScoreController.instance.AddGreen(p.value);
+            Debug.Log("Adding Points: "+p.value+" to Player Green");
+            Debug.Log("Current Score is "+Players[ActivePlayer].score);
+        }
         Destroy(p.gameObject);
     }
 
