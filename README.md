@@ -32,7 +32,7 @@ InnerDriveStudio
 
 
 **Setup**
->The folders for setup are created, but because they are currently empty, git doesn't let us commit empty folders. 
+>Game is built using the Unity Editor, will be a an executable file once built, that will be a click and play. Project must be downloaded and imported into Unity, after which you can just build.
 
 
 **Resources**
