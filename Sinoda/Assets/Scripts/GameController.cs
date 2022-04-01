@@ -33,7 +33,7 @@ public class GameController : MonoBehaviour
         }
         // if you need to set a player to bot 
         // just set it here 
-        //BotPlayerMapping[1] = 1;
+        BotPlayerMapping[1] = 1;
     }
 
     public bool IsBot(int playern)
