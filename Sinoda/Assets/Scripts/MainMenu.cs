@@ -24,6 +24,21 @@ public class MainMenu : MonoBehaviour
     }
 	public void twoPlayers()
     {
-		SceneManager.LoadScene("TileScene");
+		SceneManager.LoadScene("TileScene2");
 	}
+
+    public void vsAIGame()
+    {
+        SceneManager.LoadScene("TileScene");
+    }
+
+    public void threePlayers()
+    {
+        SceneManager.LoadScene("TileScene3");
+    }
+
+    public void gotoCredits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
 }

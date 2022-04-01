@@ -13,6 +13,8 @@ public class ScoreController : MonoBehaviour
     public Text Blue;
 
     public Text Green;
+    public Text Yellow;
+    public int yellowScore;
 
     public int redScore = 0;
 
@@ -32,6 +34,7 @@ public class ScoreController : MonoBehaviour
         Red.text = "RED SCOREs: " + redScore.ToString();
         Blue.text = "BLUE SCORE: " + blueScore.ToString();
         Green.text = "GREEN SCORE: " + greenScore.ToString();
+        Yellow.text = "YELLOW SCORE: " + yellowScore.ToString();
     }
 
     public void AddRed(int n)
@@ -51,4 +54,11 @@ public class ScoreController : MonoBehaviour
         greenScore += n;
         Green.text = "GREEN SCORE: " + greenScore.ToString();
     }
+    
+    public void AddYellow(int n)
+    {
+        yellowScore += n;
+        Yellow.text = "YELLOW SCORE: " + yellowScore.ToString();
+    }
+    
 }

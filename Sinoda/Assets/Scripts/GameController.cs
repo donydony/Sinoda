@@ -4,6 +4,8 @@ using System.Linq;
 using InnerDriveStudios.DiceCreator;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 /*
  * Main game Controller
  * Start game, End game
@@ -25,6 +27,11 @@ public class GameController : MonoBehaviour
 
     private void Awake()
     {
+        if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("TileScene3"))
+        {
+            Player_number = 4;
+        }
+        
         pieceCreator = GetComponent<PieceGenerater>();
         BotPlayerMapping = new int [Player_number];
         for (int i = 0; i < Player_number; i++)
@@ -34,9 +41,17 @@ public class GameController : MonoBehaviour
         }
         // if you need to set a player to bot 
         // just set it here 
-        BotPlayerMapping[1] = 1;
-    }
+        //BotPlayerMapping[1] = 1;
 
+        if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("TileScene"))
+        {
+            BotPlayerMapping[1] = 1;
+        }
+
+        
+        
+    }
+    
     public bool IsBot(int playern)
     {
         return BotPlayerMapping[playern] == 1;
@@ -54,6 +69,7 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     private void Startthegame()
     {
+        Debug.Log(""+layout.GetPiecesCount());
         for (int i = 0; i < layout.GetPiecesCount(); i++)
         {
             
@@ -120,9 +136,13 @@ public class GameController : MonoBehaviour
         }
         else if (ActivePlayer == 2)
         {
-            ScoreController.instance.AddGreen(p.value);
+            ScoreController.instance.AddYellow(p.value);
             Debug.Log("Adding Points: "+p.value+" to Player Green");
             Debug.Log("Current Score is "+Players[ActivePlayer].score);
+        }
+        else if (ActivePlayer == 3)
+        {
+            ScoreController.instance.AddGreen(p.value);
         }
         Destroy(p.gameObject);
     }
@@ -301,8 +321,12 @@ public class GameController : MonoBehaviour
                         int[] locations = GetPlayerPieceLocation(ActivePlayer);
                         if (!locations.Contains(m))
                         {
-                            Players[ActivePlayer].Pieces[moving_piece].moveto(m);
-                            SwitchTurn();
+                            board.SelectPiece(Players[ActivePlayer].Pieces[moving_piece]);
+                            board.Moving(m);
+                            if (CheckStats())
+                            {
+                                win(); 
+                            }
                             return;
                         }
                     }

@@ -15,6 +15,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Settings.unity
     guid: 70fadce265beb4f4b9ac8a256864380d
   - enabled: 1
-    path: Assets/Scenes/Gamescene.unity
-    guid: 3021206022275ee4c8b85e4a1889081d
+    path: Assets/Scenes/Credits.unity
+    guid: 78060cbd649999f4e9c8735778162590
+  - enabled: 1
+    path: Assets/Scenes/PlayerAmount.unity
+    guid: bd82e1d58d5eca049aaf51c52753c713
+  - enabled: 1
+    path: Assets/Scenes/TileScene.unity
+    guid: fa01eb79b9fd38942aad7d9570763f48
+  - enabled: 1
+    path: Assets/Scenes/TileScene2.unity
+    guid: ad070e634a4d69c46951853eeedef137
+  - enabled: 1
+    path: Assets/Scenes/TileScene3.unity
+    guid: 7f22bda0f7524fc4a8faf55c380039c0
   m_configObjects: {}
